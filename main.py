@@ -10,6 +10,7 @@ app = FastAPI()
 students_resource = StudentsResource()
 
 
+
 @app.get("/")
 async def root():
     return {"message": "Hello World"}
